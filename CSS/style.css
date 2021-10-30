@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.9;
+    height: 100vh;
+}
+.title{
+    margin: 0 auto;
+    background-color: rgb(5, 54, 73);
+    color: honeydew;
+   
+    padding: 10px ;
+    text-align: center;
+    border-radius: 5px;
+}
+.three-col, .col-two{
+    color: #fff;
+}
+
+.common{
+    padding: 40px;
+}
+.cm{
+    padding: 20px;
+}
+.common i{
+    font-size: 40px;
+}
+.flat-icon{
+    font-size: 50px;
+}
+input{
+    border-radius: 5px;
+    border:black;
+    outline:none;
+    height: 40px;
+}

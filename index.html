@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking & Deposite</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        section{
+            background-image: url("img/banking-and-finance.jpg");
+            background-size: cover; 
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <section>
+       <div class="overlay">
+            <div class="container pt-5">
+                <!-- TITLE SECTION -->
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="title">
+                            <h3>Deposite-Withdraw-Balance</h3>
+                            <h5>--JAVASCRIPT--</h5>
+                        </div>
+                    </div>          
+                </div>
+                <!-- TITLE THREE COL -->
+                <div class="row  mt-3 three-col text-center">
+                    <div class="col-lg-4 bg-success common">
+                        <img src="img/002-deposit.png" class="flat-icon" alt="deposit">
+                        <h4>Deposite</h4>
+                        <p>$<span id="deposite-value-show">00</span></p>
+                    </div>
+                    <div class="col-lg-4 bg-dark common">
+                        <img src="img/001-money-withdrawal.png" class="flat-icon" alt="withdrawal">
+                        <h4>Withdraw</h4>
+                        <p>$<span id="widthdraw-value-show">00</span></p>
+                    </div>
+                    <div class="col-lg-4 bg-success common">
+                        <img src="img/003-candlestick.png" class="flat-icon" alt="candlestick">
+                        <h4>Balance</h4>
+                        <p>$<span id="total-balance">520</span></p>
+                    </div>    
+                </div>
+                <!-- TITLE two COL -->
+                <div class="row mt-3 col-two">
+                    <div class="col-lg-6 bg-primary cm">
+                       <h4>Please Deposit<span class="text-dark">*</span></h4>
+                       <input id="deposit-input" type="text" placeholder="$ Amount you want to deposit" class="w-75 d-block pl-2">
+                       <button id="btn-deposit" class="btn btn-success mt-2">Deposit</button>
+                    </div>
+                    <div class="col-lg-6 bg-danger cm">
+                        <h4>Please Widthdraw<span class="text-dark">*</span></h4>
+                        <input id="widthdraw-input" type="text" placeholder="$ Amount you want to widthdraw" class="w-75 d-block pl-2">
+                        <button id="btn-widthdraw" class="btn btn-success mt-2">Widthdraw</button>
+                    </div>  
+                </div>
+            </div>
+       </div>
+    </section>
+
+    <script src="Js/app.js"></script>
+
+</body>
+</html>
